@@ -19,30 +19,30 @@
             "isStaff": false
         },
         {
-            "email": "j@b.com",
-            "fullName": "James Buchannan",
-            "isStaff": false,
-            "id": 4
+            "id": 4,
+            "fullName": "Christian Suriano",
+            "email": "c@s.com",
+            "isStaff": false
         }
     ],
     "staff": [
         {
             "id": 1,
             "userId": 1,
-            "StreetAddress": "123 Main St.",
-            "Town": "Nashville",
-            "State": "Tennessee",
-            "ZipCode": 37213,
+            "streetAddress": "123 Main St.",
+            "town": "Nashville",
+            "state": "Tennessee",
+            "zipCode": 37213,
             "phoneNumber": "615-555-1234",
             "massageLicenceNumber": "2855889157"
         },
         {
             "id": 2,
             "userId": 2,
-            "StreetAddress": "123 Main St.",
-            "Town": "Nashville",
-            "State": "Tennessee",
-            "ZipCode": 37213,
+            "streetAddress": "123 Main St.",
+            "town": "Nashville",
+            "state": "Tennessee",
+            "zipCode": 37213,
             "phoneNumber": "615-555-4321",
             "massageLicenceNumber": "1458632468"
         }
@@ -57,86 +57,336 @@
             "state": "Tennessee",
             "businessZipCode": 37213,
             "businessNumber": "615-555-2585"
+        },
+        {
+            "id": 2,
+            "userId": 4,
+            "businessName": "Pedel Tavern",
+            "businessStreetAddress": "789 South Broadway",
+            "businessTown": "South Nashville",
+            "state": "Tennessee",
+            "businessZipCode": 37213,
+            "businessNumber": "615-555-1223"
         }
     ],
-    "rates": [
-        { "id": 1, "hourId": 1, "stationId": 1, "rate": 150 },
-        { "id": 2, "hourId": 1, "stationId": 2, "rate": 300 },
-        { "id": 3, "hourId": 1, "stationId": 3, "rate": 450 },
-        { "id": 4, "hourId": 1, "stationId": 4, "rate": 600 },
-        { "id": 5, "hourId": 2, "stationId": 1, "rate": 225 },
-        { "id": 6, "hourId": 2, "stationId": 2, "rate": 450 },
-        { "id": 7, "hourId": 2, "stationId": 3, "rate": 675 },
-        { "id": 8, "hourId": 2, "stationId": 4, "rate": 900 },
-        { "id": 9, "hourId": 3, "stationId": 1, "rate": 300 },
-        { "id": 10, "hourId": 3, "stationId": 2, "rate": 600 },
-        { "id": 11, "hourId": 3, "stationId": 3, "rate": 900 },
-        { "id": 12, "hourId": 3, "stationId": 4, "rate": 1200 }
-    ],
     "hours": [
-        { "id": 1, "length": 2},
-        { "id": 2, "length": 3},
-        { "id": 3, "length": 4}
+        {
+            "id": 1,
+            "length": "one hour"
+        },
+        {
+            "id": 2,
+            "length": "two hours"
+        },
+        {
+            "id": 3,
+            "length": "three hours"
+        },
+        {
+            "id": 4,
+            "length": "four hours"
+        },
+        {
+            "id": 5,
+            "length": "five hours"
+        }
     ],
     "stations": [
-        { "id": 1, "therapists": 1},
-        { "id": 2, "therapists": 2},
-        { "id": 3, "therapists": 3},
-        { "id": 4, "therapists": 4}
-    ],
-    "states": [
-        { "id": 1, "abbreviation": "AL", "name": "Alabama" },
-        { "id": 2, "abbreviation": "AK", "name": "Alaska" },
-        { "id": 3, "abbreviation": "AZ", "name": "Arizona" },
-        { "id": 4, "abbreviation": "AR", "name": "Arkansas" },
-        { "id": 5, "abbreviation": "CA", "name": "California" },
-        { "id": 6, "abbreviation": "CO", "name": "Colorado" },
-        { "id": 7, "abbreviation": "CT", "name": "Connecticut" },
-        { "id": 8, "abbreviation": "DE", "name": "Delaware" },
-        { "id": 9, "abbreviation": "FL", "name": "Florida" },
-        { "id": 10, "abbreviation": "GA", "name": "Georgia" },
-        { "id": 11, "abbreviation": "HI", "name": "Hawaii" },
-        { "id": 12, "abbreviation": "ID", "name": "Idaho" },
-        { "id": 13, "abbreviation": "IL", "name": "Illinois" },
-        { "id": 14, "abbreviation": "IN", "name": "Indiana" },
-        { "id": 15, "abbreviation": "IA", "name": "Iowa" },
-        { "id": 16, "abbreviation": "KS", "name": "Kansas" },
-        { "id": 17, "abbreviation": "KY", "name": "Kentucky" },
-        { "id": 18, "abbreviation": "LA", "name": "Louisiana" },
-        { "id": 19, "abbreviation": "ME", "name": "Maine" },
-        { "id": 20, "abbreviation": "MD", "name": "Maryland" },
-        { "id": 21, "abbreviation": "MA", "name": "Massachusetts" },
-        { "id": 22, "abbreviation": "MI", "name": "Michigan" },
-        { "id": 23, "abbreviation": "MN", "name": "Minnesota" },
-        { "id": 24, "abbreviation": "MS", "name": "Mississippi" },
-        { "id": 25, "abbreviation": "MO", "name": "Missouri" },
-        { "id": 26, "abbreviation": "MT", "name": "Montana" },
-        { "id": 27, "abbreviation": "NE", "name": "Nebraska" },
-        { "id": 28, "abbreviation": "NV", "name": "Nevada" },
-        { "id": 29, "abbreviation": "NH", "name": "New Hampshire" },
-        { "id": 30, "abbreviation": "NJ", "name": "New Jersey" },
-        { "id": 31, "abbreviation": "NM", "name": "New Mexico" },
-        { "id": 32, "abbreviation": "NY", "name": "New York" },
-        { "id": 33, "abbreviation": "NC", "name": "North Carolina" },
-        { "id": 34, "abbreviation": "ND", "name": "North Dakota" },
-        { "id": 35, "abbreviation": "OH", "name": "Ohio" },
-        { "id": 36, "abbreviation": "OK", "name": "Oklahoma" },
-        { "id": 37, "abbreviation": "OR", "name": "Oregon" },
-        { "id": 38, "abbreviation": "PA", "name": "Pennsylvania" },
-        { "id": 39, "abbreviation": "RI", "name": "Rhode Island" },
-        { "id": 40, "abbreviation": "SC", "name": "South Carolina" },
-        { "id": 41, "abbreviation": "SD", "name": "South Dakota" },
-        { "id": 42, "abbreviation": "TN", "name": "Tennessee" },
-        { "id": 43, "abbreviation": "TX", "name": "Texas" },
-        { "id": 44, "abbreviation": "UT", "name": "Utah" },
-        { "id": 45, "abbreviation": "VT", "name": "Vermont" },
-        { "id": 46, "abbreviation": "VA", "name": "Virginia" },
-        { "id": 47, "abbreviation": "WA", "name": "Washington" },
-        { "id": 48, "abbreviation": "WV", "name": "West Virginia" },
-        { "id": 49, "abbreviation": "WI", "name": "Wisconsin" },
-        { "id": 50, "abbreviation": "WY", "name": "Wyoming" }
+        {
+            "id": 1,
+            "therapists": "one chair massage station"
+        },
+        {
+            "id": 2,
+            "therapists": "two chair massage stations"
+        },
+        {
+            "id": 3,
+            "therapists": "three chair massage stations"
+        },
+        {
+            "id": 4,
+            "therapists": "four chair massage stations"
+        }
     ],
     "bookings": [
-        {}
+        {
+            "userId": 4,
+            "rate": 75,
+            "hours": 1,
+            "stations": 1,
+            "status": "Pending",
+            "startTime": "13:30",
+            "startDate": "2022-07-30",
+            "location": "123 East Main St. Franklin, TN ",
+            "notes": "None",
+            "canceledDate": "",
+            "id": 1
+        },
+        {
+            "userId": 3,
+            "rate": 300,
+            "hours": 2,
+            "stations": 2,
+            "status": "Pending",
+            "startTime": "11:00",
+            "startDate": "2022-07-29",
+            "location": "345 West Broad St. Brentwood, TN",
+            "notes": "None",
+            "canceledDate": "",
+            "id": 2
+        }
+    ],
+    "states": [
+        {
+            "id": 1,
+            "abbreviation": "AL",
+            "name": "Alabama"
+        },
+        {
+            "id": 2,
+            "abbreviation": "AK",
+            "name": "Alaska"
+        },
+        {
+            "id": 3,
+            "abbreviation": "AZ",
+            "name": "Arizona"
+        },
+        {
+            "id": 4,
+            "abbreviation": "AR",
+            "name": "Arkansas"
+        },
+        {
+            "id": 5,
+            "abbreviation": "CA",
+            "name": "California"
+        },
+        {
+            "id": 6,
+            "abbreviation": "CO",
+            "name": "Colorado"
+        },
+        {
+            "id": 7,
+            "abbreviation": "CT",
+            "name": "Connecticut"
+        },
+        {
+            "id": 8,
+            "abbreviation": "DE",
+            "name": "Delaware"
+        },
+        {
+            "id": 9,
+            "abbreviation": "FL",
+            "name": "Florida"
+        },
+        {
+            "id": 10,
+            "abbreviation": "GA",
+            "name": "Georgia"
+        },
+        {
+            "id": 11,
+            "abbreviation": "HI",
+            "name": "Hawaii"
+        },
+        {
+            "id": 12,
+            "abbreviation": "ID",
+            "name": "Idaho"
+        },
+        {
+            "id": 13,
+            "abbreviation": "IL",
+            "name": "Illinois"
+        },
+        {
+            "id": 14,
+            "abbreviation": "IN",
+            "name": "Indiana"
+        },
+        {
+            "id": 15,
+            "abbreviation": "IA",
+            "name": "Iowa"
+        },
+        {
+            "id": 16,
+            "abbreviation": "KS",
+            "name": "Kansas"
+        },
+        {
+            "id": 17,
+            "abbreviation": "KY",
+            "name": "Kentucky"
+        },
+        {
+            "id": 18,
+            "abbreviation": "LA",
+            "name": "Louisiana"
+        },
+        {
+            "id": 19,
+            "abbreviation": "ME",
+            "name": "Maine"
+        },
+        {
+            "id": 20,
+            "abbreviation": "MD",
+            "name": "Maryland"
+        },
+        {
+            "id": 21,
+            "abbreviation": "MA",
+            "name": "Massachusetts"
+        },
+        {
+            "id": 22,
+            "abbreviation": "MI",
+            "name": "Michigan"
+        },
+        {
+            "id": 23,
+            "abbreviation": "MN",
+            "name": "Minnesota"
+        },
+        {
+            "id": 24,
+            "abbreviation": "MS",
+            "name": "Mississippi"
+        },
+        {
+            "id": 25,
+            "abbreviation": "MO",
+            "name": "Missouri"
+        },
+        {
+            "id": 26,
+            "abbreviation": "MT",
+            "name": "Montana"
+        },
+        {
+            "id": 27,
+            "abbreviation": "NE",
+            "name": "Nebraska"
+        },
+        {
+            "id": 28,
+            "abbreviation": "NV",
+            "name": "Nevada"
+        },
+        {
+            "id": 29,
+            "abbreviation": "NH",
+            "name": "New Hampshire"
+        },
+        {
+            "id": 30,
+            "abbreviation": "NJ",
+            "name": "New Jersey"
+        },
+        {
+            "id": 31,
+            "abbreviation": "NM",
+            "name": "New Mexico"
+        },
+        {
+            "id": 32,
+            "abbreviation": "NY",
+            "name": "New York"
+        },
+        {
+            "id": 33,
+            "abbreviation": "NC",
+            "name": "North Carolina"
+        },
+        {
+            "id": 34,
+            "abbreviation": "ND",
+            "name": "North Dakota"
+        },
+        {
+            "id": 35,
+            "abbreviation": "OH",
+            "name": "Ohio"
+        },
+        {
+            "id": 36,
+            "abbreviation": "OK",
+            "name": "Oklahoma"
+        },
+        {
+            "id": 37,
+            "abbreviation": "OR",
+            "name": "Oregon"
+        },
+        {
+            "id": 38,
+            "abbreviation": "PA",
+            "name": "Pennsylvania"
+        },
+        {
+            "id": 39,
+            "abbreviation": "RI",
+            "name": "Rhode Island"
+        },
+        {
+            "id": 40,
+            "abbreviation": "SC",
+            "name": "South Carolina"
+        },
+        {
+            "id": 41,
+            "abbreviation": "SD",
+            "name": "South Dakota"
+        },
+        {
+            "id": 42,
+            "abbreviation": "TN",
+            "name": "Tennessee"
+        },
+        {
+            "id": 43,
+            "abbreviation": "TX",
+            "name": "Texas"
+        },
+        {
+            "id": 44,
+            "abbreviation": "UT",
+            "name": "Utah"
+        },
+        {
+            "id": 45,
+            "abbreviation": "VT",
+            "name": "Vermont"
+        },
+        {
+            "id": 46,
+            "abbreviation": "VA",
+            "name": "Virginia"
+        },
+        {
+            "id": 47,
+            "abbreviation": "WA",
+            "name": "Washington"
+        },
+        {
+            "id": 48,
+            "abbreviation": "WV",
+            "name": "West Virginia"
+        },
+        {
+            "id": 49,
+            "abbreviation": "WI",
+            "name": "Wisconsin"
+        },
+        {
+            "id": 50,
+            "abbreviation": "WY",
+            "name": "Wyoming"
+        }
     ]
 }
