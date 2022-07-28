@@ -54,7 +54,7 @@
       "businessName": "Bell South",
       "businessStreetAddress": "456 Broadway",
       "businessTown": "Nashville",
-      "state": "Tennessee",
+      "businessState": "Tennessee",
       "businessZipCode": 37213,
       "businessNumber": "615-555-2585"
     },
@@ -64,7 +64,7 @@
       "businessName": "Pedel Tavern",
       "businessStreetAddress": "789 South Broadway",
       "businessTown": "South Nashville",
-      "state": "Tennessee",
+      "businessState": "Tennessee",
       "businessZipCode": 37213,
       "businessNumber": "615-555-1223"
     }
@@ -115,12 +115,12 @@
       "rate": 75,
       "hours": 1,
       "stations": 1,
-      "status": "Pending",
+      "status": "Canceled",
       "startTime": "13:00",
       "startDate": "2022-10-27",
-      "location": "123 Main",
+      "location": "123 Main St. Franklin, TN",
       "notes": "",
-      "canceledDate": "",
+      "canceledDate": "7/28/2022, 10:05:43 AM",
       "id": 1
     },
     {
@@ -131,7 +131,7 @@
       "status": "Approved",
       "startTime": "13:00",
       "startDate": "2022-10-29",
-      "location": "234 South Main",
+      "location": "234 South Main Brentwood, TN",
       "notes": "",
       "canceledDate": "",
       "id": 2
@@ -144,8 +144,8 @@
       "status": "Denied",
       "startTime": "13:00",
       "startDate": "2022-09-28",
-      "location": "345 Westend",
-      "notes": "",
+      "location": "345 Westend Nashville, TN",
+      "notes": "Convention",
       "canceledDate": "",
       "id": 3
     },
@@ -157,7 +157,7 @@
       "status": "Pending",
       "startTime": "13:30",
       "startDate": "2022-09-23",
-      "location": "852 Broadway",
+      "location": "852 Broadway Nashville, TN",
       "notes": "",
       "canceledDate": "",
       "id": 5
@@ -170,7 +170,7 @@
       "status": "Pending",
       "startTime": "14:30",
       "startDate": "2022-08-16",
-      "location": "681 Maple St.",
+      "location": "681 Maple St. Nolensville, TN",
       "notes": "Employee appreciation day",
       "canceledDate": "",
       "id": 6
@@ -180,12 +180,12 @@
       "rate": 1500,
       "hours": 5,
       "stations": 4,
-      "status": "Canceled",
+      "status": "Pending",
       "startTime": "10:00",
       "startDate": "2022-10-31",
-      "location": "1313 Mockingbird Ln",
+      "location": "1313 Mockingbird Ln. Hendersonville, TN",
       "notes": "Halloween Party",
-      "canceledDate": "2022-07-27T19:37:13.023Z",
+      "canceledDate": "",
       "id": 7
     }
   ],
