@@ -23,6 +23,12 @@
       "fullName": "Christian Suriano",
       "email": "c@s.com",
       "isStaff": false
+    },
+    {
+      "email": "w@b.com",
+      "fullName": "Wilson Bell",
+      "isStaff": false,
+      "id": 5
     }
   ],
   "staff": [
@@ -44,7 +50,7 @@
       "state": "Tennessee",
       "zipCode": 37213,
       "phoneNumber": "615-555-4321",
-      "massageLicenceNumber": "1458632468"
+      "massageLicenceNumber": 1234567890
     }
   ],
   "customers": [
@@ -56,7 +62,7 @@
       "businessTown": "Nashville",
       "businessState": "Tennessee",
       "businessZipCode": 37213,
-      "businessNumber": "615-555-2585"
+      "businessNumber": "615-555-1234"
     },
     {
       "id": 2,
@@ -67,6 +73,16 @@
       "businessState": "Tennessee",
       "businessZipCode": 37213,
       "businessNumber": "615-555-1223"
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "businessName": "Pedel Tavern",
+      "businessStreetAddress": "789 South Broadway",
+      "businessTown": "South Nashville",
+      "businessState": "Tennessee",
+      "businessZipCode": 37213,
+      "businessNumber": "615-555-1248"
     }
   ],
   "hours": [
@@ -180,13 +196,26 @@
       "rate": 1500,
       "hours": 5,
       "stations": 4,
-      "status": "Pending",
+      "status": "Approved",
       "startTime": "10:00",
       "startDate": "2022-10-31",
       "location": "1313 Mockingbird Ln. Hendersonville, TN",
       "notes": "Halloween Party",
       "canceledDate": "",
       "id": 7
+    },
+    {
+      "userId": 5,
+      "rate": 900,
+      "hours": 4,
+      "stations": 3,
+      "status": "Approved",
+      "startTime": "08:00",
+      "startDate": "2022-10-08",
+      "location": "567 Maple St. Nashville TN",
+      "notes": "Birthday",
+      "canceledDate": "",
+      "id": 8
     }
   ],
   "states": [
