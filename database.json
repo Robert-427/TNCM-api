@@ -29,6 +29,30 @@
       "fullName": "Wilson Bell",
       "isStaff": false,
       "id": 5
+    },
+    {
+      "email": "j@s.com",
+      "fullName": "Joe Shep",
+      "isStaff": false,
+      "id": 6
+    },
+    {
+      "email": "r@t.com",
+      "fullName": "Ross TA",
+      "isStaff": false,
+      "id": 7
+    },
+    {
+      "email": "j@m.com",
+      "fullName": "Joe Maifeld",
+      "isStaff": false,
+      "id": 8
+    },
+    {
+      "email": "t@s.com",
+      "fullName": "Tiffany Smith",
+      "isStaff": false,
+      "id": 9
     }
   ],
   "staff": [
@@ -40,7 +64,7 @@
       "state": "Tennessee",
       "zipCode": 37213,
       "phoneNumber": "615-555-1234",
-      "massageLicenceNumber": "2855889157"
+      "massageLicenceNumber": 2855889157
     },
     {
       "id": 2,
@@ -83,6 +107,46 @@
       "businessState": "Tennessee",
       "businessZipCode": 37213,
       "businessNumber": "615-555-1248"
+    },
+    {
+      "userId": 6,
+      "businessName": "NSS",
+      "businessStreetAddress": "3521 Elm St.",
+      "businessTown": "Nasvhille",
+      "businessState": "Tennessee",
+      "businessZipCode": 37213,
+      "businessNumber": "615-555-2555",
+      "id": 4
+    },
+    {
+      "userId": 7,
+      "businessName": "NSS",
+      "businessStreetAddress": "3246 Pine St.",
+      "businessTown": "Nashville",
+      "businessState": "Tennessee",
+      "businessZipCode": 37138,
+      "businessNumber": "615-555-2585",
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "businessName": "Chef's-R-Us",
+      "businessStreetAddress": "5684 Main St.",
+      "businessTown": "Franklin",
+      "businessState": "Tennessee",
+      "businessZipCode": 37069,
+      "businessNumber": "615-555-2288",
+      "id": 6
+    },
+    {
+      "userId": 9,
+      "businessName": "Wedding's-R-Us",
+      "businessStreetAddress": "420 Oak St.",
+      "businessTown": "Hendersonville",
+      "businessState": "Tennessee",
+      "businessZipCode": 37213,
+      "businessNumber": "615-555-0143",
+      "id": 7
     }
   ],
   "hours": [
@@ -131,12 +195,15 @@
       "rate": 75,
       "hours": 1,
       "stations": 1,
-      "status": "Canceled",
+      "status": "Archived",
       "startTime": "13:00",
-      "startDate": "2022-10-27",
-      "location": "123 Main St. Franklin, TN",
+      "startDate": "2021-10-27",
+      "address": "123 Main St",
+      "city": "Franklin",
+      "state": "Tennessee",
+      "zip": 37069,
       "notes": "",
-      "canceledDate": "7/28/2022, 10:05:43 AM",
+      "canceledDate": "7/28/2021, 10:05:43 AM",
       "id": 1
     },
     {
@@ -147,7 +214,10 @@
       "status": "Approved",
       "startTime": "13:00",
       "startDate": "2022-10-29",
-      "location": "234 South Main Brentwood, TN",
+      "address": "234 South Main",
+      "city": "Brentwood",
+      "state": "Tennessee",
+      "zip": 37061,
       "notes": "",
       "canceledDate": "",
       "id": 2
@@ -160,7 +230,10 @@
       "status": "Denied",
       "startTime": "13:00",
       "startDate": "2022-09-28",
-      "location": "345 Westend Nashville, TN",
+      "address": "345 Westend",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": 37210,
       "notes": "Convention",
       "canceledDate": "",
       "id": 3
@@ -173,8 +246,11 @@
       "status": "Pending",
       "startTime": "13:30",
       "startDate": "2022-09-23",
-      "location": "852 Broadway Nashville, TN",
-      "notes": "",
+      "address": "852 Broadway",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": 37210,
+      "notes": "Birthday Party",
       "canceledDate": "",
       "id": 5
     },
@@ -186,7 +262,10 @@
       "status": "Pending",
       "startTime": "14:30",
       "startDate": "2022-08-16",
-      "location": "681 Maple St. Nolensville, TN",
+      "address": "681 Maple St.",
+      "city": "Nolensville",
+      "state": "Tennessee",
+      "zip": 37456,
       "notes": "Employee appreciation day",
       "canceledDate": "",
       "id": 6
@@ -199,7 +278,10 @@
       "status": "Approved",
       "startTime": "10:00",
       "startDate": "2022-10-31",
-      "location": "1313 Mockingbird Ln. Hendersonville, TN",
+      "address": "1313 Mockingbird Ln.",
+      "city": "Hendersonville",
+      "state": "Tennessee",
+      "zip": 37489,
       "notes": "Halloween Party",
       "canceledDate": "",
       "id": 7
@@ -212,10 +294,93 @@
       "status": "Approved",
       "startTime": "08:00",
       "startDate": "2022-10-08",
-      "location": "567 Maple St. Nashville TN",
+      "address": "567 Maple St.",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": 37210,
       "notes": "Birthday",
       "canceledDate": "",
       "id": 8
+    },
+    {
+      "userId": 6,
+      "rate": 1500,
+      "hours": 5,
+      "stations": 4,
+      "status": "Approved",
+      "startTime": "09:00",
+      "startDate": "2022-11-04",
+      "address": "3521 Elm St.",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": 37125,
+      "notes": "Graduation Party",
+      "canceledDate": "",
+      "id": 9
+    },
+    {
+      "userId": 7,
+      "rate": 225,
+      "hours": 3,
+      "stations": 1,
+      "status": "Pending",
+      "startTime": "13:30",
+      "startDate": "2022-11-25",
+      "address": "2156 Pine St.",
+      "city": "Nolensville",
+      "state": "Tennessee",
+      "zip": 37120,
+      "notes": "Black Friday",
+      "canceledDate": "",
+      "id": 10
+    },
+    {
+      "userId": 9,
+      "rate": 600,
+      "hours": 4,
+      "stations": 2,
+      "status": "Pending",
+      "startTime": "18:00",
+      "startDate": "2022-11-12",
+      "address": "777 Church Ln.",
+      "city": "Goodlesville",
+      "state": "Tennessee",
+      "zip": 37258,
+      "notes": "Wedding Reception",
+      "canceledDate": "",
+      "id": 11
+    },
+    {
+      "userId": 8,
+      "rate": 300,
+      "hours": 2,
+      "stations": 2,
+      "status": "Archived",
+      "startTime": "10:00",
+      "startDate": "2021-12-23",
+      "address": "987 Oak St.",
+      "city": "Murfressboro",
+      "state": "Tennessee",
+      "zip": 37123,
+      "notes": "Corporate Event",
+      "canceledDate": "",
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "rate": 150,
+      "hours": 1,
+      "stations": 2,
+      "status": "Pending",
+      "startTime": "16:00",
+      "startDate": "2022-10-01",
+      "address": "357 Maple St.",
+      "city": "Smyrna",
+      "state": "Tennessee",
+      "zip": 37085,
+      "notes": "Private Event",
+      "canceledDate": "",
+      "id": 13
     }
   ],
   "states": [
