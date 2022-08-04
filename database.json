@@ -4,37 +4,43 @@
       "id": 1,
       "fullName": "Mandi Parker",
       "email": "m@p.com",
-      "isStaff": true
+      "isStaff": true,
+      "blackListed": false
     },
     {
       "id": 2,
       "fullName": "Robert Parker",
       "email": "r@p.com",
-      "isStaff": true
+      "isStaff": true,
+      "blackListed": false
     },
     {
       "id": 3,
       "fullName": "Alex Bell",
       "email": "a@b.com",
-      "isStaff": false
+      "isStaff": false,
+      "blackListed": false
     },
     {
       "id": 4,
       "fullName": "Christian Suriano",
       "email": "c@s.com",
-      "isStaff": false
+      "isStaff": false,
+      "blackListed": false
     },
     {
       "email": "w@b.com",
       "fullName": "Wilson Bell",
       "isStaff": false,
-      "id": 5
+      "id": 5,
+      "blackListed": false
     },
     {
       "email": "j@s.com",
       "fullName": "Joe Shep",
       "isStaff": false,
-      "id": 6
+      "id": 6,
+      "blackListed": false
     },
     {
       "email": "r@t.com",
@@ -46,13 +52,22 @@
       "email": "j@m.com",
       "fullName": "Joe Maifeld",
       "isStaff": false,
-      "id": 8
+      "id": 8,
+      "blackListed": false
     },
     {
       "email": "t@s.com",
       "fullName": "Tiffany Smith",
       "isStaff": false,
-      "id": 9
+      "id": 9,
+      "blackListed": false
+    },
+    {
+      "email": "stephen@smith.com",
+      "fullName": "Stephen Smith",
+      "isStaff": false,
+      "id": 10,
+      "blackListed": true
     }
   ],
   "staff": [
@@ -147,6 +162,16 @@
       "businessZipCode": 37213,
       "businessNumber": "615-555-0143",
       "id": 7
+    },
+    {
+      "userId": 10,
+      "businessName": "Barracuda Inc",
+      "businessStreetAddress": "2543 Peachtree Ave.",
+      "businessTown": "Atlanta",
+      "businessState": "Georgia",
+      "businessZipCode": 75210,
+      "businessNumber": "456-524-8575",
+      "id": 8
     }
   ],
   "hours": [
@@ -211,7 +236,7 @@
       "rate": 300,
       "hours": 2,
       "stations": 2,
-      "status": "Approved",
+      "status": "Denied",
       "startTime": "13:00",
       "startDate": "2022-10-29",
       "address": "234 South Main",
@@ -243,7 +268,7 @@
       "rate": 225,
       "hours": 3,
       "stations": 1,
-      "status": "Pending",
+      "status": "Canceled",
       "startTime": "13:30",
       "startDate": "2022-09-23",
       "address": "852 Broadway",
@@ -251,7 +276,7 @@
       "state": "Tennessee",
       "zip": 37210,
       "notes": "Birthday Party",
-      "canceledDate": "",
+      "canceledDate": "8/3/2022, 9:52:36 AM",
       "id": 5
     },
     {
@@ -261,7 +286,7 @@
       "stations": 3,
       "status": "Pending",
       "startTime": "14:30",
-      "startDate": "2022-08-16",
+      "startDate": "2022-08-04",
       "address": "681 Maple St.",
       "city": "Nolensville",
       "state": "Tennessee",
@@ -339,7 +364,7 @@
       "rate": 600,
       "hours": 4,
       "stations": 2,
-      "status": "Pending",
+      "status": "Approved",
       "startTime": "18:00",
       "startDate": "2022-11-12",
       "address": "777 Church Ln.",
@@ -381,6 +406,86 @@
       "notes": "Private Event",
       "canceledDate": "",
       "id": 13
+    },
+    {
+      "userId": 4,
+      "rate": 75,
+      "hours": 1,
+      "stations": 1,
+      "status": "Archived",
+      "startTime": "13:00",
+      "startDate": "2020-10-27",
+      "address": "123 Main St",
+      "city": "Franklin",
+      "state": "Tennessee",
+      "zip": 37069,
+      "notes": "Annual Gathering",
+      "canceledDate": "",
+      "id": 14
+    },
+    {
+      "userId": 5,
+      "rate": 225,
+      "hours": 3,
+      "stations": 1,
+      "status": "Archived",
+      "startTime": "15:00",
+      "startDate": "2021-04-05",
+      "address": "654 Margin St",
+      "city": "Franklin",
+      "state": "Tennessee",
+      "zip": 37064,
+      "notes": "Family Reunion",
+      "canceledDate": "",
+      "id": 15
+    },
+    {
+      "userId": 9,
+      "rate": 300,
+      "hours": 1,
+      "stations": 4,
+      "status": "Archived",
+      "startTime": "11:00",
+      "startDate": "2021-02-25",
+      "address": "456 Church St",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": 37258,
+      "notes": "Office party",
+      "canceledDate": "",
+      "id": 16
+    },
+    {
+      "userId": 9,
+      "rate": 300,
+      "hours": 4,
+      "stations": 1,
+      "status": "Pending",
+      "startTime": "18:00",
+      "startDate": "2023-01-24",
+      "address": "456 Church St",
+      "city": "Murfreesboro",
+      "state": "Tennessee",
+      "zip": 37456,
+      "notes": "Customer's wedding reception",
+      "canceledDate": "",
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "rate": 225,
+      "hours": 1,
+      "stations": 3,
+      "status": "Approved",
+      "startTime": "13:00",
+      "startDate": "2022-08-10",
+      "address": "4563 Old Hickory Blvd",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": 37213,
+      "notes": "Office Party",
+      "canceledDate": "",
+      "id": 18
     }
   ],
   "states": [
