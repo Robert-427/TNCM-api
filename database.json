@@ -68,6 +68,13 @@
       "isStaff": false,
       "id": 10,
       "blackListed": true
+    },
+    {
+      "email": "d@m.com",
+      "fullName": "Derek Malone",
+      "isStaff": false,
+      "blackList": false,
+      "id": 11
     }
   ],
   "staff": [
@@ -170,8 +177,18 @@
       "businessTown": "Atlanta",
       "businessState": "Georgia",
       "businessZipCode": 75210,
-      "businessNumber": "456-524-8575",
+      "businessNumber": "456-524-8557",
       "id": 8
+    },
+    {
+      "userId": 11,
+      "businessName": "N ss",
+      "businessStreetAddress": "123 main st",
+      "businessTown": "nashville",
+      "businessState": "Alabama",
+      "businessZipCode": 11254,
+      "businessNumber": "654123582",
+      "id": 9
     }
   ],
   "hours": [
@@ -284,7 +301,7 @@
       "rate": 675,
       "hours": 3,
       "stations": 3,
-      "status": "Pending",
+      "status": "Archived",
       "startTime": "14:30",
       "startDate": "2022-08-04",
       "address": "681 Maple St.",
@@ -476,7 +493,7 @@
       "rate": 225,
       "hours": 1,
       "stations": 3,
-      "status": "Approved",
+      "status": "Pending",
       "startTime": "13:00",
       "startDate": "2022-08-10",
       "address": "4563 Old Hickory Blvd",
@@ -486,6 +503,22 @@
       "notes": "Office Party",
       "canceledDate": "",
       "id": 18
+    },
+    {
+      "userId": 11,
+      "rate": 600,
+      "hours": 2,
+      "stations": 4,
+      "status": "Approved",
+      "startTime": "12:00",
+      "startDate": "2022-11-05",
+      "address": "234 Main St",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "zip": 37213,
+      "notes": "Graduation",
+      "canceledDate": "",
+      "id": 19
     }
   ],
   "states": [
